@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+.content{
+    margin: auto;
+    width: 65%;
+    background-color: #f5f5f5;
+    border-top: 0.5em solid #666;
+    display: block;
+    margin-top: 10%;
+    list-style-type: none;
+}
+.introduction ul,.first-div ul{
+    list-style-type: none;
+}
+.introduction h1{
+    font-family: Georgia;
+}
+.first-div i,.introduction i{
+    font-size: 1.5em;
+}
+.introduction ul li{
+    display: inline-block;
+}
+.introduction,.first-div,.job{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.right{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 1em;
+}
+.left{
+    padding-bottom: 2em;
+}
+.button{
+    cursor: pointer;
+    background-color: #666666;
+    color: #FFFF;;
+    border: none;
+    width: 11em;;
+    height: 2.5em;;
+    border-radius: 3px;
+}
+.button span{
+    font-size: 1.1em;
+    margin-right: 2em;
+}
+.button:hover{
+    transition-duration: .7s;
+    background-color: black;
+}
+.email{
+    color: #990003;
+}
+.number{
+    font-family: Georgia;
+}
+.first-div i{
+    position: relative;
+    padding-left: 1.7em;;
+    padding-bottom: 4em;
+    display: inline-block;
+    font-size: 152%;
+    vertical-align: top;
+}
+.text li{
+    display: inline-block;
+    width: 20%;
+}
+.phone{
+    color: gray;
+}
+.first-div ul>li{
+display: inline;
+}
+.text{
+    display: inline;
+    font-size: 114%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.footer{
+    text-align: center;
+}
+.first-div,.introduction{
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid #ccc;
+}
+.job h4{
+    position: absolute;
+    right: 3em;
+    top: 1.5em;
+}
